@@ -71,7 +71,7 @@ class BrainFuck:
             self.program_counter += 1
 if __name__ == '__main__':
     if len(sys.argv) < 2:
-        print("Usage: python script.py <filename>")
+        print("Usage: python BrainFuck.py <filename>")
         sys.exit(1)
 
     filename = sys.argv[1]
